@@ -247,7 +247,8 @@ header .header_photo{
 }
 
 .nosotros{
-
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .nosotros_targets{
     display: grid;
@@ -285,4 +286,29 @@ header .header_photo{
 .nosotros_texto_encabezado h3{
     margin: 0;
     color: var(--light-green);
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.contactos_title h2{
+    font-size: 4rem;
+}
+.contactos_contacto h3{
+    margin-bottom: 40px;
+}
+.contacto-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+}
+.contacto-item img{
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    border-radius: 50%;
 }
