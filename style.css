@@ -19,6 +19,9 @@ p{
 .container{
     padding: 0 12rem;
 }
+.italic{
+    font-style: italic;
+}
 
 body{
     background-color: var(--bg-green);
@@ -241,4 +244,45 @@ header .header_photo{
     padding: 10px 20px;
     border-radius: 10px;
     color: var(--bg-green);
+}
+
+.nosotros{
+
+}
+.nosotros_targets{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.nosotros_target{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--bg-blue);
+}
+.nosotros_img{
+    grid-column: 1/2;
+    background-image: url(./img/we_photo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nosotros_texto{
+    grid-column: 2/5;
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.nosotros_texto_encabezado{
+    margin: 40px 0;
+}
+.nosotros_texto_encabezado p{
+    margin: 0;
+    font-size: 12px;
+
+}
+.nosotros_texto_encabezado h3{
+    margin: 0;
+    color: var(--light-green);
 }
