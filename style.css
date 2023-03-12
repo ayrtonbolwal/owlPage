@@ -103,7 +103,7 @@ header .header_photo{
 .opiniones{
     background-color: var(--bg-blue);
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 .opiniones .cards_opiniones{
     display: grid;
@@ -129,8 +129,7 @@ header .header_photo{
 }
 
 .faqs{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 100px;
 }
 .faqs h2{
     margin-bottom: 18px;
@@ -163,7 +162,7 @@ header .header_photo{
 }
 
 .cursos{
-
+    margin-top: 100px;
 }
 .cursos_online{
     padding-top: 20px;
@@ -247,8 +246,7 @@ header .header_photo{
 }
 
 .nosotros{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
 }
 .nosotros_targets{
     display: grid;
@@ -292,6 +290,7 @@ header .header_photo{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    margin-top: 100px;
 }
 .contactos_title h2{
     font-size: 4rem;
@@ -311,4 +310,19 @@ header .header_photo{
     height: 50px;
     margin-right: 40px;
     border-radius: 50%;
+}
+footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    background-color: var(--bg-blue);
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
