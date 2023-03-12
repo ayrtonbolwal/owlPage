@@ -158,3 +158,87 @@ header .header_photo{
 .rojo{
     background-color: #C83544;
 }
+
+.cursos{
+
+}
+.cursos_online{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.online_targets{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+.online_target{
+    background-color: var(--bg-green-gray);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.online_target img{
+    width: 100%;
+}
+.online_target_info{
+    padding: 5px 20px;
+}
+.online_target_info h3{
+    margin: 10px 0;
+    padding: 0;
+}
+.online_target_info p{
+    margin: 10px 0;
+    padding: 0;
+}
+
+.cursos_live{
+    padding: 20px 0;
+}
+.live_targets{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+.live_target{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--bg-green-gray);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.live_photo{
+    grid-column: 1/2;
+    background-image: url(./img/photo_live.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.live_target_texto{
+    grid-column: 2/5;
+    padding: 60px 30px 60px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.live_target_encabezado{
+    margin-bottom: 20px;
+}
+.live_target_encabezado h3{
+    margin: 0;
+}
+.live_target_encabezado p{
+    margin: 10px 0 0 0;
+    padding: 0;
+    color: var(--light-green);
+}
+.live_target_descripcion{
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.live_target_texto button{
+    width: fit-content;
+    background-color: var(--light-green);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: var(--bg-green);
+}
